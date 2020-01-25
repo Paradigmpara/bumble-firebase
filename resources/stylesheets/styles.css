@@ -9,10 +9,44 @@ body {
     height: 100vh;
 }
 
+.primary {
+    height: 36px;
+    padding: 0 16px;
+    outline: 0;
+    border: 0 solid transparent;
+    border-radius: 0;
+    background: #ffc629;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    width: 140px;
+}
+
+
+.reverse {
+    height: 36px;
+    padding: 0 16px;
+    outline: 0;
+    border: 0 solid transparent;
+    border: 2px solid #ffc629;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    width: 140px;
+}
+
+button:hover {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
 .container {
     min-width: 1376px;
     margin: 0 auto;
 }
+
 
 .navbar-brand {
     height: 60px;
@@ -20,6 +54,7 @@ body {
     align-items: center;
 }
 
+/* Index */
 .hero_image {
     min-height: 620px;
     background-position: top center;
@@ -57,39 +92,7 @@ body {
     margin: 0 8px
 }
 
-.primary {
-    height: 36px;
-    padding: 0 16px;
-    outline: 0;
-    border: 0 solid transparent;
-    border-radius: 0;
-    background: #ffc629;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    width: 140px;
-}
-
-
-.reverse {
-    height: 36px;
-    padding: 0 16px;
-    outline: 0;
-    border: 0 solid transparent;
-    border: 2px solid #ffc629;
-    background: #fff;
-    color: #333;
-    text-decoration: none;
-    font-weight: 600;
-    width: 140px;
-}
-
-button:hover {
-    background: #333;
-    color: #fff;
-    cursor: pointer;
-}
-
+/* Sign Up */
 .get-started_wrapper {
     margin: 45px auto;
     width: 560px;
@@ -112,4 +115,80 @@ button:hover {
 .form-card_container {
     width: 50%;
     margin: auto
+}
+
+/* App */
+
+.app-container {
+    background: #FFF7D8;
+    height: 540px;
+    width: 75%;
+    border-radius: 7.5%;
+}
+
+.app-image {
+    height: 540px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 7.5%;
+    border-bottom-left-radius: 7.5%;
+}
+
+.app-body h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #333333;
+    margin: 8px 0;
+}
+
+.app-body p {
+    color: #333333;
+    font-size: 18px;
+    margin: 0;
+}
+
+.app-button-container {
+    position: relative;
+    margin-top: -110px;
+    z-index: 9999999999999999;
+}
+
+.app-button-wrapper {
+    width: 320px;
+    margin: auto;
+}
+
+.reject,
+.accept {
+    border: 1px solid #dcdcdc;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.app-button,
+.superswipe-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-button:hover {
+    cursor: pointer;
+    width: 90px;
+    height: 90px;
+}
+
+.superswipe-button {
+    width: 124px;
+    cursor: pointer;
+    height: 129px;
+}
+
+.superswipe-button:hover {
+    cursor: pointer;
+    width: 134px;
+    height: 139px;
 }
