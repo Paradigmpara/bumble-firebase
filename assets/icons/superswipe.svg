@@ -1,0 +1,18 @@
+ <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#FFC629">
+        <defs>
+            <filter id="icon-superswipe-b" width="156.5%" height="154.2%" x="-28.3%" y="-22.9%"
+                filterUnits="objectBoundingBox">
+                <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"></feGaussianBlur>
+                <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"></feColorMatrix>
+            </filter>
+            <path id="icon-superswipe-a"
+                d="M14,41.7916784 C14,37.5507527 17.0181885,32.4530745 20.7380586,30.4074849 L53.2619414,12.5223129 C56.9832684,10.4759222 63.0181885,10.4767233 66.7380586,12.5223129 L99.2619414,30.4074849 C102.983268,32.4538757 106,37.5430056 106,41.7916784 L106,75.4924655 C106,79.7333912 103.008411,84.8662936 99.3112051,86.9610299 L66.6887949,105.444 C62.9946755,107.536987 57.008411,107.538736 53.3112051,105.444 L20.6887949,86.9610299 C16.9946755,84.8680424 14,79.7411382 14,75.4924655 L14,41.7916784 Z">
+            </path>
+        </defs>
+        <use class="icon-superswipe-shadow" filter="url(#icon-superswipe-b)" xlink:href="#icon-superswipe-a"></use>
+        <use xlink:href="#icon-superswipe-a"></use>
+        <path fill="#FFF"
+            d="M60,52.2666353 C58.3987476,47.468246 54.1226738,45.0021794 50,45.0000011 C44.9367692,44.9973259 40,49.8099593 40,56.3036544 C40,64.683113 50.8013985,73.0219724 56.6970556,76.0768479 C57.9151501,76.7080119 58.896875,77 59.84,77 C60.783125,77 61.5334232,76.9533127 62.8101386,76.3289312 C68.5727673,73.5107002 80,64.9566586 80,56.3036544 C80,49.5606513 75.1460486,45.0021794 70,45.0021794 C66.0102184,45.0021794 61.5148279,47.6697272 60,52.2666353 Z">
+        </path>
+    </svg>
