@@ -15,6 +15,68 @@
 </head>
 
 <body>
+    <nav class="navbar">
+        <div class="container d-flex justify-content-center align-items-center">
+            <a class="navbar-brand" href="/">
+                <img src="./assets/logo.png" alt="logo">
+            </a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="get-started_wrapper">
+            <h1>Welcome! Haven't tried Bumble? Register now</h1>
+        </div>
+
+        <div class="form-card_container">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="john.doe@gmail.com">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="********">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" class="form-control" id="fullName" placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="nickName">Nickname</label>
+                    <input type="text" class="form-control" id="nickName" placeholder="John">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="age">Age</label>
+                        <input type="number" min="18" class="form-control" id="age" placeholder="21">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputState">Gender</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Prefer not to say</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputState">Interested in?</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Both</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="primary">Sign Up</button>
+            </form>
+        </div>
+
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">

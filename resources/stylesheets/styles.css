@@ -5,6 +5,10 @@
         sans-serif;
 }
 
+body {
+    height: 100vh;
+}
+
 .container {
     min-width: 1376px;
     margin: 0 auto;
@@ -49,7 +53,11 @@
     color: #333;
 }
 
-.hero_block button.primary {
+.hero_block button {
+    margin: 0 8px
+}
+
+.primary {
     height: 36px;
     padding: 0 16px;
     outline: 0;
@@ -60,13 +68,11 @@
     text-decoration: none;
     font-weight: 600;
     width: 140px;
-    margin: 0 8px;
 }
 
 
-.hero_block button.reverse {
+.reverse {
     height: 36px;
-    margin: 0 8px;
     padding: 0 16px;
     outline: 0;
     border: 0 solid transparent;
@@ -78,8 +84,32 @@
     width: 140px;
 }
 
-.hero_block button:hover {
+button:hover {
     background: #333;
     color: #fff;
     cursor: pointer;
+}
+
+.get-started_wrapper {
+    margin: 45px auto;
+    width: 560px;
+}
+
+.form-login {
+    margin: 75px auto;
+}
+
+.get-started_wrapper h1 {
+    margin-bottom: 0;
+    text-align: center;
+    letter-spacing: .01em;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.35;
+    color: #333333
+}
+
+.form-card_container {
+    width: 50%;
+    margin: auto
 }
